@@ -79,13 +79,12 @@ nav ul > li > a {
   font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
-  margin-bottom: 32px;
 }
 /* main */
 main {
   /* background-color: aquamarine; */
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 /* Feature section */
 .Features {
@@ -145,6 +144,11 @@ main {
   .feature-content {
     width: 90vw;
   }
+  .image-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 /* tablet */
 
@@ -154,5 +158,20 @@ main {
   }
   nav {
     flex-direction: column;
+  }
+  .Features {
+    width: 80vw;
+    margin: auto;
+    flex-direction: column;
+  }
+  .image-container {
+    background-color: #131313;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    /* padding: 0px 140px; */
+  }
+  .feature-content {
+    width: 80vw;
   }
 }
