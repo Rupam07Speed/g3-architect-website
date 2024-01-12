@@ -96,7 +96,7 @@ main {
 }
 
 .image-container {
-  width: 50%;
+  width: 30%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
@@ -115,6 +115,7 @@ main {
 }
 .feature-title1 {
   color: #131313;
+  font-size: 45px;
   font-weight: 700;
 }
 .feature-title2 {
@@ -129,6 +130,14 @@ main {
   margin-bottom: 32px;
 }
 
+/* Fact */
+.fact {
+  padding: 0 230px;
+  /* background-color: aquamarine; */
+}
+.fact p {
+  max-width: 542px;
+}
 /* responsive media queary */
 /* mobile */
 @media screen and (max-width: 576px) {
